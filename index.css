@@ -1,0 +1,51 @@
+ @keyframes wave{
+     0%{
+         transform: rotate(0deg);
+     }
+
+     25%{
+         transform: rotate(1deg);
+     }
+
+     50%{
+         transform: rotate(0deg);
+     }
+     75%{
+         transform: rotate(-1deg)
+     }
+     100%{
+         transform: rotate(0deg)
+     }
+
+ }
+  
+  #hand {
+    transform-origin:bottom right;
+    animation: wave 0.7s 0s linear infinite;
+  }
+  
+  
+  
+  body {
+    background: #96EDD9;
+  }
+  
+  .container {
+    text-align:center;
+    padding: 20px 0px;
+  }
+  
+  #man {
+    height: 400px;
+    margin: auto;
+    overflow: visible;
+  }
+  
+  .attribution {
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 0.8em;
+    text-decoration: none;
+  }
